@@ -11,3 +11,9 @@ Luckily, in this version of Wordle that you are going to be programming, you wil
 - Based on this, the player has 6 tries to guess the word.
 - At the end of the 6 attempts, if the player fails to guess the right word, the word is revealed.
 
+## How to Run
+
+- Clone the repository and `cd` into it.
+- Install the requirements by running `pip install -r requirements.txt`.
+- In your terminal, run `export PYTHONPATH=$PYTHONPATH:$(pwd)` to add the current directory to your `PYTHONPATH`.
+- Run `python src/wordle.py` to start the game.
